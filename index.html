@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISHA Hotel - Premium Hospitality Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <h2>MISHA HOTEL</h2>
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Particle Background -->
+    <div id="particles-bg" class="particles-bg"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo animate-slide-right">
+                <h2>MISHA HOTEL</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item animate-slide-down" style="animation-delay: 0.1s">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item animate-slide-down" style="animation-delay: 0.2s">
+                    <a href="#rooms" class="nav-link">Rooms</a>
+                </li>
+                <li class="nav-item animate-slide-down" style="animation-delay: 0.3s">
+                    <a href="#booking" class="nav-link">Booking</a>
+                </li>
+                <li class="nav-item animate-slide-down" style="animation-delay: 0.4s">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item animate-slide-down" style="animation-delay: 0.5s">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item animate-slide-down" style="animation-delay: 0.6s">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger animate-slide-left">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-up">Experience Luxury Redefined</h1>
+            <p class="hero-subtitle animate-fade-up" style="animation-delay: 0.3s">Indulge in unparalleled comfort and sophistication at Luxe Hotel</p>
+            <div class="hero-buttons animate-fade-up" style="animation-delay: 0.6s">
+                <a href="#booking" class="btn btn-primary btn-hover-effect">Book Now</a>
+                <a href="#rooms" class="btn btn-secondary btn-hover-effect">Explore Rooms</a>
+            </div>
+        </div>
+        <div class="scroll-indicator animate-bounce">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Rooms & Services -->
+    <section id="rooms" class="rooms section-animate">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-on-scroll" data-animation="slideInUp">Rooms & Services</h2>
+                <p class="animate-on-scroll" data-animation="fadeIn" data-delay="0.2">Discover our exquisite accommodations and premium services</p>
+            </div>
+            <div class="rooms-grid">
+                <div class="room-card animate-on-scroll" data-animation="slideInLeft" data-delay="0.1">
+                    <div class="room-image">
+                        <img src="images/citty view room.jpg"  alt="Deluxe Suite">
+                        <div class="room-overlay">
+                            <div class="room-price pulse-animation">$299/night</div>
+                        </div>
+                        <div class="image-overlay-effect"></div>
+                    </div>
+                    <div class="room-content">
+                        <h3>Deluxe Suite</h3>
+                        <p>Spacious suite with city views, king bed, and premium amenities</p>
+                        <ul class="room-features">
+                            <li class="feature-animate" style="animation-delay: 0.1s"><i class="fas fa-wifi"></i> Free WiFi</li>
+                            <li class="feature-animate" style="animation-delay: 0.2s"><i class="fas fa-car"></i> Parking</li>
+                            <li class="feature-animate" style="animation-delay: 0.3s"><i class="fas fa-swimming-pool"></i> Pool Access</li>
+                        </ul>
+                        <button class="btn btn-outline btn-hover-effect">View Details</button>
+                    </div>
+                </div>
+
+                <div class="room-card animate-on-scroll" data-animation="slideInUp" data-delay="0.2">
+                    <div class="room-image">
+                        <img src="images/luxurious room.avif" alt="Presidential Suite">
+                        <div class="room-overlay">
+                            <div class="room-price pulse-animation">$599/night</div>
+                        </div>
+                        <div class="image-overlay-effect"></div>
+                    </div>
+                    <div class="room-content">
+                        <h3>Presidential Suite</h3>
+                        <p>Ultimate luxury with panoramic views, separate living area, and butler service</p>
+                        <ul class="room-features">
+                            <li class="feature-animate" style="animation-delay: 0.1s"><i class="fas fa-concierge-bell"></i> Butler Service</li>
+                            <li class="feature-animate" style="animation-delay: 0.2s"><i class="fas fa-hot-tub"></i> Private Jacuzzi</li>
+                            <li class="feature-animate" style="animation-delay: 0.3s"><i class="fas fa-utensils"></i> Room Service</li>
+                        </ul>
+                        <button class="btn btn-outline btn-hover-effect">View Details</button>
+                    </div>
+                </div>
+
+                <div class="room-card animate-on-scroll" data-animation="slideInRight" data-delay="0.3">
+                    <div class="room-image">
+                        <img src="images/standard room.jpg" width="200" alt="Standard Room">
+                        <div class="room-overlay">
+                            <div class="room-price pulse-animation">$149/night</div>
+                        </div>
+                        <div class="image-overlay-effect"></div>
+                    </div>
+                    <div class="room-content">
+                        <h3>Standard Room</h3>
+                        <p>Comfortable accommodation with modern amenities and elegant design</p>
+                        <ul class="room-features">
+                            <li class="feature-animate" style="animation-delay: 0.1s"><i class="fas fa-bed"></i> Queen Bed</li>
+                            <li class="feature-animate" style="animation-delay: 0.2s"><i class="fas fa-tv"></i> Smart TV</li>
+                            <li class="feature-animate" style="animation-delay: 0.3s"><i class="fas fa-coffee"></i> Coffee Maker</li>
+                        </ul>
+                        <button class="btn btn-outline btn-hover-effect">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-section">
+                <h3 class="animate-on-scroll" data-animation="slideInUp">Premium Services</h3>
+                <div class="services-grid">
+                    <div class="service-item animate-on-scroll" data-animation="zoomIn" data-delay="0.1">
+                        <div class="service-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h4>Spa & Wellness</h4>
+                        <p>Rejuvenate with our world-class spa treatments</p>
+                    </div>
+                    <div class="service-item animate-on-scroll" data-animation="zoomIn" data-delay="0.2">
+                        <div class="service-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <h4>Fitness Center</h4>
+                        <p>State-of-the-art equipment available 24/7</p>
+                    </div>
+                    <div class="service-item animate-on-scroll" data-animation="zoomIn" data-delay="0.3">
+                        <div class="service-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h4>Fine Dining</h4>
+                        <p>Michelin-starred cuisine in elegant settings</p>
+                    </div>
+                    <div class="service-item animate-on-scroll" data-animation="zoomIn" data-delay="0.4">
+                        <div class="service-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <h4>Valet Service</h4>
+                        <p>Complimentary valet parking for all guests</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section id="booking" class="booking section-animate">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-on-scroll" data-animation="slideInUp">Make a Reservation</h2>
+                <p class="animate-on-scroll" data-animation="fadeIn" data-delay="0.2">Book your perfect stay with us</p>
+            </div>
+            <div class="booking-form-container animate-on-scroll" data-animation="slideInUp" data-delay="0.3">
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group form-animate" style="animation-delay: 0.1s">
+                            <label for="checkin">Check-in Date</label>
+                            <input type="date" id="checkin" name="checkin" required>
+                        </div>
+                        <div class="form-group form-animate" style="animation-delay: 0.2s">
+                            <label for="checkout">Check-out Date</label>
+                            <input type="date" id="checkout" name="checkout" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group form-animate" style="animation-delay: 0.3s">
+                            <label for="guests">Number of Guests</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">Select guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5+">5+ Guests</option>
+                            </select>
+                        </div>
+                        <div class="form-group form-animate" style="animation-delay: 0.4s">
+                            <label for="roomType">Room Type</label>
+                            <select id="roomType" name="roomType" required>
+                                <option value="">Select room type</option>
+                                <option value="standard">Standard Room - $149/night</option>
+                                <option value="deluxe">Deluxe Suite - $299/night</option>
+                                <option value="presidential">Presidential Suite - $599/night</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group form-animate" style="animation-delay: 0.5s">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group form-animate" style="animation-delay: 0.6s">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group form-animate" style="animation-delay: 0.7s">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group form-animate" style="animation-delay: 0.8s">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    <div class="form-group form-animate" style="animation-delay: 0.9s">
+                        <label for="specialRequests">Special Requests</label>
+                        <textarea id="specialRequests" name="specialRequests" rows="4" placeholder="Any special requests or preferences..."></textarea>
+                    </div>
+                    <div class="booking-summary" id="bookingSummary" style="display: none;">
+                        <h4>Booking Summary</h4>
+                        <div class="summary-details"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full btn-hover-effect form-animate" style="animation-delay: 1s">Complete Reservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery section-animate">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-on-scroll" data-animation="slideInUp">Gallery</h2>
+                <p class="animate-on-scroll" data-animation="fadeIn" data-delay="0.2">Explore our stunning facilities and accommodations</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item animate-on-scroll" data-animation="zoomIn" data-delay="0.1" data-category="rooms">
+                    <img src="images/room2 (3).jpg" alt="Luxury Room">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <i class="fas fa-search-plus"></i>
+                            <h4>Luxury Rooms</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-animation="zoomIn" data-delay="0.2" data-category="dining">
+                    <img src="images/fine dinnig.jpg" alt="Restaurant">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <i class="fas fa-search-plus"></i>
+                            <h4>Fine Dining</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-animation="zoomIn" data-delay="0.3" data-category="spa">
+                    <img src="images/spa.jpg" alt="Spa">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <i class="fas fa-search-plus"></i>
+                            <h4>Spa & Wellness</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-animation="zoomIn" data-delay="0.4" data-category="facilities">
+                    <img src="images/pool.jpg" alt="Pool">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <i class="fas fa-search-plus"></i>
+                            <h4>Swimming Pool</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-animation="zoomIn" data-delay="0.5" data-category="rooms">
+                    <img src="images/pre suite.jpg" alt="Suite">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <i class="fas fa-search-plus"></i>
+                            <h4>Presidential Suite</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-animation="zoomIn" data-delay="0.6" data-category="facilities">
+                    <img src="images/lobby.jpg" alt="Lobby">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <i class="fas fa-search-plus"></i>
+                            <h4>Grand Lobby</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="about section-animate">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header">
+                        <h2 class="animate-on-scroll" data-animation="slideInLeft">About MISHA Hotel</h2>
+                        <p class="animate-on-scroll" data-animation="fadeIn" data-delay="0.2">Where luxury meets exceptional service</p>
+                    </div>
+                    <div class="about-description">
+                        <p class="animate-on-scroll" data-animation="slideInLeft" data-delay="0.3">For over three decades, MISHA Hotel has been synonymous with unparalleled luxury and exceptional hospitality. Located in the heart of the city, our hotel offers a perfect blend of contemporary elegance and timeless sophistication.</p>
+                        
+                        <p class="animate-on-scroll" data-animation="slideInLeft" data-delay="0.4">Our commitment to excellence is reflected in every aspect of your stay, from our meticulously designed rooms and suites to our world-class amenities and personalized service. We believe that every guest deserves an extraordinary experience that exceeds expectations.</p>
+                        
+                        <div class="about-stats">
+                            <div class="stat-item animate-on-scroll" data-animation="zoomIn" data-delay="0.1">
+                                <h3 class="counter" data-target="30">0</h3>
+                                <span class="counter-suffix">+</span>
+                                <p>Years of Excellence</p>
+                            </div>
+                            <div class="stat-item animate-on-scroll" data-animation="zoomIn" data-delay="0.2">
+                                <h3 class="counter" data-target="500">0</h3>
+                                <span class="counter-suffix">+</span>
+                                <p>Luxury Rooms</p>
+                            </div>
+                            <div class="stat-item animate-on-scroll" data-animation="zoomIn" data-delay="0.3">
+                                <h3 class="counter" data-target="50">0</h3>
+                                <span class="counter-suffix">+</span>
+                                <p>Countries Served</p>
+                            </div>
+                            <div class="stat-item animate-on-scroll" data-animation="zoomIn" data-delay="0.4">
+                                <h3>24/7</h3>
+                                <p>Concierge Service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image animate-on-scroll" data-animation="slideInRight" data-delay="0.2">
+                    <img src="images/hotel ext.png" alt="Hotel Exterior">
+                    <div class="image-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section-animate">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="animate-on-scroll" data-animation="slideInUp">Contact Us</h2>
+                <p class="animate-on-scroll" data-animation="fadeIn" data-delay="0.2">Get in touch with our team</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item animate-on-scroll" data-animation="slideInLeft" data-delay="0.1">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Luxury Avenue<br>Downtown District<br>New York, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item animate-on-scroll" data-animation="slideInLeft" data-delay="0.2">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+                        </div>
+                    </div>
+                    <div class="contact-item animate-on-scroll" data-animation="slideInLeft" data-delay="0.3">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@mishahotel.com<br>reservations@mishahotel.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item animate-on-scroll" data-animation="slideInLeft" data-delay="0.4">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>24/7 Front Desk<br>Concierge Available</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form animate-on-scroll" data-animation="slideInRight" data-delay="0.2" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-hover-effect">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section animate-on-scroll" data-animation="slideInUp" data-delay="0.1">
+                    <h3>MISHA HOTEL</h3>
+                    <p>Experience luxury redefined with exceptional service and unparalleled comfort.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section animate-on-scroll" data-animation="slideInUp" data-delay="0.2">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#rooms">Rooms</a></li>
+                        <li><a href="#booking">Booking</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section animate-on-scroll" data-animation="slideInUp" data-delay="0.3">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Spa & Wellness</a></li>
+                        <li><a href="#">Fine Dining</a></li>
+                        <li><a href="#">Event Planning</a></li>
+                        <li><a href="#">Business Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section animate-on-scroll" data-animation="slideInUp" data-delay="0.4">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@mishahotel.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Luxury Avenue, NY</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MISHA Hotel. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
